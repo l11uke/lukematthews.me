@@ -1,5 +1,210 @@
 <!DOCTYPE html>
-<html>
-<head><title>Luke Matthews</title></head>
-<body><p>Coming soon.</p></body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luke Matthews</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #0f0d0b;
+    color: #ede8e0;
+    min-height: 100vh;
+    padding: 3rem 2rem;
+  }
+
+  .inner {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: #c97d3a;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: clamp(36px, 7vw, 48px);
+    font-weight: 600;
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+    color: #f5f0e8;
+  }
+
+  .title {
+    font-size: 14px;
+    color: #c97d3a;
+    letter-spacing: 0.04em;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(to right, #c97d3a33, transparent);
+    margin: 2rem 0;
+  }
+
+  .bio {
+    font-size: 17px;
+    line-height: 1.75;
+    color: #c4bdb0;
+    margin-bottom: 2.5rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 2.5rem;
+  }
+
+  .tag {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: #c97d3a;
+    border: 1px solid #c97d3a44;
+    border-radius: 4px;
+    padding: 4px 10px;
+    background: #c97d3a0e;
+    font-weight: 500;
+  }
+
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #5a5448;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .roles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+  }
+
+  .role {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ffffff08;
+  }
+
+  .role-company {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ede8e0;
+    min-width: 120px;
+  }
+
+  .role-title {
+    font-size: 13px;
+    color: #7a7060;
+    flex: 1;
+  }
+
+  .role-year {
+    font-size: 11px;
+    color: #4a4438;
+    letter-spacing: 0.04em;
+  }
+
+  .links {
+    display: flex;
+    gap: 12px;
+    margin-top: 2.5rem;
+  }
+
+  .links a {
+    font-size: 12px;
+    color: #c97d3a;
+    text-decoration: none;
+    border: 1px solid #c97d3a55;
+    border-radius: 4px;
+    padding: 8px 16px;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .links a:hover {
+    background: #c97d3a18;
+    border-color: #c97d3a99;
+  }
+
+  footer {
+    margin-top: 3rem;
+    font-size: 10px;
+    color: #322e28;
+    letter-spacing: 0.1em;
+  }
+</style>
+</head>
+<body>
+<div class="inner">
+  <p class="eyebrow">Brisbane, Australia</p>
+  <h1>Luke Matthews</h1>
+  <p class="title">Cloud &amp; Services Leader · Practice Management</p>
+
+  <div class="divider"></div>
+
+  <p class="bio">25 years in cloud and managed services, from hands-on engineering to leading teams, building practices, and shaping how organisations run and sell technology at scale.</p>
+
+  <div class="tags">
+    <span class="tag">Service Portfolio</span>
+    <span class="tag">Public &amp; Hybrid Cloud</span>
+    <span class="tag">Managed Services</span>
+    <span class="tag">FinOps</span>
+    <span class="tag">Business Leadership</span>
+  </div>
+
+  <p class="section-label">Experience</p>
+  <div class="roles">
+    <div class="role">
+      <span class="role-company">Data#3</span>
+      <span class="role-title">Solutions Architect · Service Portfolio</span>
+      <span class="role-year">2025–</span>
+    </div>
+    <div class="role">
+      <span class="role-company">Brennan IT</span>
+      <span class="role-title">Head of Cloud &amp; Infrastructure</span>
+      <span class="role-year">2022–25</span>
+    </div>
+    <div class="role">
+      <span class="role-company">MOQdigital</span>
+      <span class="role-title">Head of Managed Services · Azure Expert MSP</span>
+      <span class="role-year">2019–22</span>
+    </div>
+    <div class="role">
+      <span class="role-company">Idea 11</span>
+      <span class="role-title">TechOps Manager</span>
+      <span class="role-year">2018–19</span>
+    </div>
+    <div class="role">
+      <span class="role-company">Optus</span>
+      <span class="role-title">Technical Operations Manager · Cloud &amp; DC</span>
+      <span class="role-year">2006–18</span>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="https://www.linkedin.com/in/lukewmatthews/" target="_blank" rel="noopener">↗ LinkedIn</a>
+    <a href="https://github.com/l11uke" target="_blank" rel="noopener">↗ GitHub</a>
+  </div>
+
+  <footer>lukematthews.me</footer>
+</div>
+</body>
 </html>
